@@ -3,6 +3,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    {% include 'includes/head.html' %}
     <title>{% block title %}{% endblock %}</title>
 
    <title>Stevo's Portfolio</title>
@@ -10,6 +11,7 @@
   <body>
   {% block content %}
   {% endblock %}
+  {% include 'includes/scripts.html'%}
     
   </body>
 </html>
