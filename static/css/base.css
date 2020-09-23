@@ -11,7 +11,7 @@ body {
 }
 
 .nav-main {
-    background: #fff;
+    background: transparent;
     padding-top: 1.25rem;
     padding-bottom:1.25rem;
     z-index: 99;
@@ -22,7 +22,7 @@ body {
   }
 
 .nav-fade {
-    background: transparent;
+    background: #fff;
     transition: background 0.4s ease 0s;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .text-black {
-    color: #000;
+    color: #000!important;
 }
 
 .home-landing {
