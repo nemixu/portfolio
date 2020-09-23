@@ -2,9 +2,9 @@
 $(window).scroll(function() {
     if($(this).scrollTop() > 50) {
         $('.nav-main').addClass('nav-fade');
-        $('.nav-main-list-items a').addClass('text-black');
+        $('.nav-main-list-items a').addClass('text-green');
     } else {
         $('.nav-main').removeClass('nav-fade');
-        $('.nav-main-list-items a').removeClass('text-black');
+        $('.nav-main-list-items a').removeClass('text-green');
     }
 });
