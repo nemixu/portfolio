@@ -10,6 +10,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    font-size: 1.3rem;
+}
+
 .nav-main {
     background: transparent;
     padding-top: 1.25rem;
@@ -43,12 +47,13 @@ body {
 }
 
 .text-green {
-    color: #bfe6d4!important;
+    color: orangered!important;
 }
 
 .home-landing {
-    background: url(/static/images/bg.jpg)no-repeat center 0px/100%;
-    height: 100vh;
+    background: url(/static/images/bg.jpg);
+    background-size: cover;
+    height: 1200px;
     padding-top: 165px;
 }
 
@@ -66,17 +71,61 @@ body {
 .side-bar {
     position: fixed;
     right: 10px;
-    font-size: 25px;
+    font-size: 35px;
     top: 420px;
 }
 
 .about-container {
-    height: 100%;
+    height: 800px;
+    padding-top: 165px;
+    padding-bottom: 165px;
     background: #fff;
 }
+
+.landing-text {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.about-text {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.icon-size {
+    font-size: 3em;
+    padding-right: 7px;
+    transition: opacity 300ms ease 0s, transform 300ms ease 0s;
+}
+
+.icon-size:hover {
+    transform: scale(1.3);
+    color: orangered;
+}
+
+.side-bar-icon{
+    transition: opacity 300ms ease 0s, transform 300ms ease 0s;
+}
+.side-bar-icon:hover {
+    transform: scale(1.3);
+    color: orangered!important;
+}
+
+.projects-container{
+    height: auto;
+    padding-top: 165px;
+    padding-bottom: 165px;
+    background: #2b2c2c;
+}
+
+.project-pictures {
+    width: 270px;
+    height: 275px;
+}
+
 footer {
     
     bottom: 0;
     height: 5rem;
-    background: #bfe6d4;
+    background: #fff;
 }
