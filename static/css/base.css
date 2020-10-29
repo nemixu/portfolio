@@ -64,6 +64,11 @@ p {
     border-color: #bfbbbd;
     border-radius: 15px;
     padding: 9px 30px;
+    transition: opacity 300ms ease 0s, transform 300ms ease 0s;
+}
+
+.btn-clear:hover {
+    transform: scale(1.1);
 }
 .mw-50 {
     max-width: 50% !important;
@@ -84,12 +89,12 @@ p {
 }
 
 .landing-text {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0px auto;
 }
 
 .about-text {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0px auto;
 }
 
@@ -107,6 +112,7 @@ p {
 .side-bar-icon{
     transition: opacity 300ms ease 0s, transform 300ms ease 0s;
 }
+
 .side-bar-icon:hover {
     transform: scale(1.3);
     color: orangered!important;
@@ -122,6 +128,13 @@ p {
 .project-pictures {
     width: 270px;
     height: 275px;
+    transition: opacity 300ms ease 0s, transform 300ms ease 0s
+}
+
+.project-pictures:hover {
+    transform: scale(1.05);
+    mix-blend-mode: overlay;
+    transition: opacity 300ms ease 0s, transform 300ms ease 0s
 }
 
 footer {
