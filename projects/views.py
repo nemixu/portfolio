@@ -17,4 +17,3 @@ def projects(request):
     print(response.text.encode('utf8'))
     return render (request, 'projects.html')
 
-===>
