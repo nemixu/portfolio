@@ -8,3 +8,16 @@ $(window).scroll(function() {
         $('.nav-main-list-items a').removeClass('text-green');
     }
 });
+
+
+//Sidebar slide in effect to showcase social links and cv
+let sideBar = document.getElementById('side-bar-main');
+
+window.addEventListener('scroll', () => {
+    if(window.scrollY > 700){
+        sideBar.classList.add('slide-in');
+    }
+    else if (window.scrollY <600) {
+         sideBar.classList.remove('slide-in');
+    } 
+})
