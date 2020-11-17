@@ -122,7 +122,7 @@ p {
 .slide-in {
     transform: translateX(0px);
     transition: right 0.5s ease-in-out;
-    right: 20px;
+    right: 20px !important;
 }
 
 .projects-container{
@@ -144,6 +144,26 @@ p {
     transition: opacity 300ms ease 0s, transform 300ms ease 0s
 }
 
+.tech-paragraph {
+    display:flex;
+    position: relative;
+    top:60px;
+    right:50px;
+}
+
+.totop-button {
+    cursor: pointer;
+    height:2.1875rem;
+    width:2.1875rem;
+    color: #fff;
+    position:fixed;
+    bottom:0.625rem;
+    right: -50px;
+    background:#FF4500;
+    z-index: 99999;
+    transform: translateX(0px);
+    transition: right 0.5s ease-in-out;
+  }
 footer {
     
     bottom: 0;
