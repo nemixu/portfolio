@@ -26,26 +26,30 @@
                 <h2 class="display-3 text-black text-center font-weight-bold">About Me.</h2>
                 <p class="text-justify pt-3 about-text">A software developer and recent graduate from Code Institute.
                 I started my journey in web development just over 12 months ago,
-                as I sat in work adivsing individuals on what career path to take
-                I found myself wondering why I am not chasing my own dream.
-                Fast forward 12 months and still breaking everything I touch,
-                I now have such an itch to try new things and push myself to learn and continue to
-                build on my current rookie knowledge.
+                with a huge drive to challenge myself and learn as much as possible
                 Currently self teaching React with Redux, hooks and graphQL to
                 try keep relevant in the industry with hope of chasing a career building clean applications.
                 </p>
             </div>
             <div class="col-12">
                 <h4 class="text-black about-text pt-5">Technologies I use :</h4>
-                <div class="col-12 about-text text-black pt-3">
+                <div class="col-12 about-text text-black pt-3 d-flex">
                     <i class="fab fa-python icon-size"></i>
+                    <p class="tech-paragraph">{Django, flask}</p>
                     <i class="fab fa-js-square icon-size"></i>
+                    <p class="tech-paragraph">Es6+</p>
                     <i class="fab fa-react icon-size"></i>
+                    <p class="tech-paragraph">React.Js</p>
                     <i class="fab fa-html5 icon-size"></i>
+                    <p class="tech-paragraph">Html5</p>
                     <i class="fab fa-css3-alt icon-size"></i>
+                    <p class="tech-paragraph">CSS3</p>
                     <i class="fab fa-sass icon-size"></i>
+                    <p class="tech-paragraph">SASS</p>
                     <i class="fab fa-bootstrap icon-size"></i>
+                    <p class="tech-paragraph">Bootstrap 4</p>
                     <i class="fab fa-git-square icon-size"></i>
+                    <p class="tech-paragraph">Git</p>
                 </div>
             </div>
         </div>
@@ -81,5 +85,11 @@
         </div>
     </div>
 </section>
+<!--To top button-->
+<div class="totop-button shadow-sm rounded-circle" id="top-button">
+    <a class="totop-link d-flex h-100" aria-label="to top button" onclick="window.scrollTo(0, 0)">
+        <i class="fas fas fa-arrow-up text-white mx-auto my-auto" aria-label="icon"></i>
+    </a>   
+</div>
 
 {% endblock  %}
