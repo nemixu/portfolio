@@ -29,7 +29,7 @@ I have also included social links which is situated on a fade-in bar to keep a c
 The grey colours complimented with white and black and some orange on hover and nav items.
 
 ### Features left to Implement
-In the future, I would like to have this application as scalable as possible and this was the main reason for using django framework, although it does not implement a lot of the django features, I plan on adding a blog section. I contact section which does not just us mailto:, I also plan on creating a file explorer which will hold all project code all in one place which will use the github api. I have also considered using django as an api holder and reactjs as the front end which would be a nice combination of both technologies.
+In the future, I would like to have this application as scalable as possible and this was the main reason for using django framework, although it does not implement a lot of the django features early on, I plan on adding a blog section. A contact section which does not just us mailto:, I also plan on creating a file explorer which will hold all project code all in one place which will use the github api. I have also considered using django as an api holder and reactjs as the front end which would be a nice combination of both technologies.
 
 ## Deployment
 This site is hosted using heroku, with packages django-heroku and whitenoise for image hosting, I was toying with using AWS s3 but because there was so few images to host I decided to go with whitenoise as it made more sense, for future releases and scalability I will transition to AWS as it would make more sense.
