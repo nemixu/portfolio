@@ -83,6 +83,9 @@ p {
 }
 
 .about-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
     height: 800px;
     padding-top: 165px;
     padding-bottom: 165px;
@@ -220,11 +223,20 @@ p {
     transition: right 0.5s ease-in-out;
   }
 
-
+.contact-container {
+    padding-top: 165px;
+    padding-bottom: 165px;
+    background: #fff;
+    height:800px;
+    max-width: 900px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
 
 footer {
     
     bottom: 0;
     height: 5rem;
-    background: #fff;
+    background: #2b2c2c;
 }
