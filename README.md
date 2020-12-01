@@ -3,7 +3,7 @@ This is my personal portfolio website which showcases some of the applications I
 It also includes some information on myself and an updated version of my cv.
 
 ## deployed link
-A deployed link to the website can be found [here](https://stevo-portfolio.herokuapp.com/)
+A deployed link to the website can be found [here](https:www.seagrave.dev)
 
 ## UX
 
