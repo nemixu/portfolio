@@ -134,7 +134,7 @@ p {
 }
 
 .projects {
-    background: #2b2c2c;
+    background: #f6f6f6;
     position: relative;
 }
 .projects-container{
@@ -144,70 +144,60 @@ p {
     padding-bottom: 165px;
 }
 
-
-.project-box {
-    position: relative;
-    padding: 20px 0;
-    text-align: center;
+.gallery-image {
+    height: auto;
+    max-width: 100%;
+    border: none;
 }
 
-.project-box-spacing{
-    padding-left: 10px!important;
-    padding-right: 10px!important;
-
+.img-element {
+    height:800px;
+    width: 800px;
+    height: auto;
+    max-width: 100%;
+    border: none;
 }
-
-.project-pictures {
-    width: 290px;
-    height: 295px;
-    mix-blend-mode: overlay;
-    filter: blur(1px);
-}
-
-.project-links {
+.project-links i {
     font-size: 2.2rem;
-    color: #fff;
+    color: orange;
     position: relative;
-    bottom: 160px;
+    transition: opacity 300ms ease 0s, transform 300ms ease 0s;
 }
 
-
-.project-description {
-    font-size: 0.8rem;
-    color: #fff;
-    position: relative;
-    bottom:190px;
-    padding-bottom:0!important;
-    max-width: 290px;
-    margin: auto;
-
+.project-links i:hover {
+    transform: scale(1.3);
 }
-.project-content {
-    font-size: 1.4rem;
-    font-weight: 800;
-    color:#fff;
+
+.projects-text {
+    font-size: 1rem;
+}
+
+.gallery-image figcaption {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    height: 150px;
+    background: #f6f6f6;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    color: #222;
+    text-transform: uppercase;
+}
+
+.gallery-image:hover figcaption {
     opacity: 1;
-    position: relative;
-    bottom:250px;
-    padding:0;
-    width: auto;
-    display: block;
-    cursor: pointer;
-    overflow: hidden;
+    height: 150px;
+    bottom: 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
-.project-pictures:hover
-.project-content {
-    opacity: 1!important;
-    color: red;
-} 
-
-.tech-paragraph {
-    display:flex;
-    position: relative;
-    top:60px;
-    right:50px;
-}
 
 .totop-button {
     cursor: pointer;
