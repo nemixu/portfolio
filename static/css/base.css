@@ -35,11 +35,11 @@ p {
     display:flex;
     position: relative;
     top: 0.5rem;
+    padding-left: 0;
 }
 
 .nav-main-list-items{
     list-style:none;
-    padding-right:1rem;
 }
 
 .text-black {
@@ -145,6 +145,7 @@ p {
 }
 
 .gallery-image {
+    cursor: pointer;
     height: auto;
     max-width: 100%;
     border: none;
@@ -198,7 +199,6 @@ p {
     transition: all 0.3s ease-in-out;
 }
 
-
 .totop-button {
     cursor: pointer;
     height:2.1875rem;
@@ -223,6 +223,20 @@ p {
     display: flex;
     flex-direction: column;
 }
+
+h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 4px;
+    width: 60px;
+    background: #252525;
+    margin: auto;
+    transition: .3s;
+}
+
 
 footer {
     
