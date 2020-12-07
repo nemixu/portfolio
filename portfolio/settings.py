@@ -26,6 +26,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
+# allowed hosts
 ALLOWED_HOSTS = ['stevo-portfolio.heroku.com', '127.0.0.1', 'seagrave.dev']
 
 
