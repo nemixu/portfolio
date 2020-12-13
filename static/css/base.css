@@ -43,12 +43,12 @@ p {
 }
 
 .text-black {
-    color: #000!important;
+    color: #000000DE!important;
 }
 
 
 .text-green {
-    color: orangered!important;
+    color: #3C6E71!important;
 }
 
 .home-landing {
@@ -110,7 +110,7 @@ p {
 
 .icon-size:hover {
     transform: scale(1.3);
-    color: orangered;
+    color: #3C6E71;
 }
 
 .icon-row{
@@ -124,7 +124,7 @@ p {
 
 .side-bar-icon:hover {
     transform: scale(1.3);
-    color: orangered!important;
+    color: #284B63!important;
 }
 
 .slide-in {
@@ -160,7 +160,7 @@ p {
 }
 .project-links i {
     font-size: 2.2rem;
-    color: orange;
+    color: #3C6E71;
     position: relative;
     transition: opacity 300ms ease 0s, transform 300ms ease 0s;
 }
@@ -193,7 +193,7 @@ p {
 .gallery-image:hover figcaption {
     opacity: 1;
     height: 150px;
-    bottom: 0px;
+    bottom: 23px;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -207,7 +207,7 @@ p {
     position:fixed;
     bottom:0.625rem;
     right: -50px;
-    background:#FF4500;
+    background:#3C6E71;
     z-index: 99999;
     transform: translateX(0px);
     transition: right 0.5s ease-in-out;
@@ -224,9 +224,8 @@ p {
     flex-direction: column;
 }
 
-h2::before {
-    content: "";
-    position: absolute;
+.line-breaker {
+    
     left: 0;
     right: 0;
     bottom: 0;
@@ -237,10 +236,42 @@ h2::before {
     transition: .3s;
 }
 
+.btn-danger {
+    background-color: #3C6E71;
+    border-color: #3C6E71;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-danger:hover {
+    background-color: #3C6E71;
+    border-color: #3C6E71;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
 
 footer {
     
     bottom: 0;
     height: 5rem;
     background: #2b2c2c;
+}
+
+::-webkit-scrollbar-track
+{   
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: #3C6E71;
+    background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, .2) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .2) 75%, transparent 75%, transparent)
 }
