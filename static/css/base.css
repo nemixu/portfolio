@@ -7,7 +7,7 @@ body {
     /* height:12000px; */
     height: calc(100vh - 10.25rem);
     margin:0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 p {
@@ -43,12 +43,12 @@ p {
 }
 
 .text-black {
-    color: #000000DE!important;
+    color: #24292e!important;
 }
 
 
 .text-green {
-    color: #3C6E71!important;
+    color: #24292e!important;
 }
 
 .home-landing {
@@ -110,7 +110,7 @@ p {
 
 .icon-size:hover {
     transform: scale(1.3);
-    color: #3C6E71;
+    color: #24292e;
 }
 
 .icon-row{
@@ -160,7 +160,7 @@ p {
 }
 .project-links i {
     font-size: 2.2rem;
-    color: #3C6E71;
+    color: #24292e;
     position: relative;
     transition: opacity 300ms ease 0s, transform 300ms ease 0s;
 }
@@ -207,7 +207,7 @@ p {
     position:fixed;
     bottom:0.625rem;
     right: -50px;
-    background:#3C6E71;
+    background:#24292e;
     z-index: 99999;
     transform: translateX(0px);
     transition: right 0.5s ease-in-out;
@@ -224,27 +224,15 @@ p {
     flex-direction: column;
 }
 
-.line-breaker {
-    
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 4px;
-    width: 60px;
-    background: #252525;
-    margin: auto;
-    transition: .3s;
-}
-
 .btn-danger {
-    background-color: #3C6E71;
-    border-color: #3C6E71;
+    background-color: #24292e;
+    border-color: #24292e;
     transition: all 0.3s ease-in-out;
 }
 
 .btn-danger:hover {
-    background-color: #3C6E71;
-    border-color: #3C6E71;
+    background-color: #24292e;
+    border-color: #24292e;
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
@@ -253,7 +241,7 @@ footer {
     
     bottom: 0;
     height: 5rem;
-    background: #2b2c2c;
+    background: #fff;
 }
 
 ::-webkit-scrollbar-track
@@ -272,6 +260,6 @@ footer {
 
 ::-webkit-scrollbar-thumb
 {
-    background-color: #3C6E71;
+    background-color: #24292e;
     background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, .2) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .2) 75%, transparent 75%, transparent)
 }
