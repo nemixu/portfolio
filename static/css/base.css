@@ -51,11 +51,27 @@ p {
     color: #24292e!important;
 }
 
-.home-landing {
-    background: url(/static/images/bg.jpg);
-    background-size: cover;
+.landing-image {
+    background: url(/static/images/stevo.png);
     height: 1200px;
     padding-top: 165px;
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    background-position: right bottom;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.into-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 1000px;
 }
 
 .btn-clear {
@@ -263,3 +279,15 @@ footer {
     background-color: #24292e;
     background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, .2) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .2) 75%, transparent 75%, transparent)
 }
+
+@media only screen 
+  and (max-width: 1765px) {
+      .landing-image {
+          padding-top: 575px;
+          transition: all 0.3s ease-in-out;
+      }
+
+      .into-container {
+        bottom: 1100px;
+    }
+  }
