@@ -253,6 +253,10 @@ p {
     transition: all 0.3s ease-in-out;
 }
 
+.intro-paragraph{
+    font-size: 1.3em;
+}
+
 footer {
     
     bottom: 0;
@@ -280,14 +284,137 @@ footer {
     background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, .2) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .2) 75%, transparent 75%, transparent)
 }
 
+#name-landing {
+    font-size: 1em;
+}
+
+/* 4k Screens */
 @media only screen 
-  and (max-width: 1765px) {
-      .landing-image {
-          padding-top: 575px;
+  and (max-width: 2560px) {
+    .landing-image {
+        padding-top: 85px;
           transition: all 0.3s ease-in-out;
       }
 
-      .into-container {
-        bottom: 1100px;
+    .into-container {
+        bottom: 760px;
+    }
+    
+    .intro-paragraph {
+         font-size: 1.5em;
+     }
+
+    #name-landing {
+         font-size: 5em;
+     }
+}
+
+/* 23" screens */
+@media only screen and (max-width: 1920px) {
+    .landing-image {
+          padding-top: 25px;
+          transition: all 0.3s ease-in-out;
+    }
+
+    .into-container {
+        bottom: 790px;
+    }
+
+    .intro-paragraph {
+        font-size: 1.3em;
+    }
+
+    #name-landing{
+        font-size: 4em;
     }
   }
+
+/* Laptops */
+@media only screen and (max-width: 1280px) {
+    .landing-image {
+        padding-top: 175px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .into-container {
+        bottom: 600px;
+    }
+
+    .intro-paragraph{
+        font-size: 1em;
+    }
+    
+}
+
+/* Tablets*/
+@media only screen and (max-width: 1024px) {
+    .into-container {
+        bottom: 1120px;
+    }
+
+    .landing-image {
+        padding-top: 467px;
+        transition: all 0.3s ease-in-out;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .into-container {
+        bottom: 850px;
+    }
+
+    .landing-image {
+        padding-top: 457px;
+    }
+}
+
+/* Iphone 6/7/8/plus */
+@media only screen and (max-width: 414px) {
+    .into-container {
+        bottom: 680px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .landing-image {
+        padding-top: 400px;
+    }
+
+    .intro-paragraph {
+        font-size: 1.1em;
+    }
+
+    #name-landing {
+        font-size: 2em;
+    }
+}
+
+/*Iphone X styling*/
+@media only screen and (max-width: 375px) {
+    .into-container {
+        bottom: 742px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .landing-image {
+        padding-top: 400px;
+    }
+
+    .intro-paragraph {
+        font-size: 1.1em;
+    }
+
+    #name-landing {
+        font-size: 2em;
+    }
+}
+
+@media only screen 
+    and (device-width :  375px) 
+    and (device-height : 667px) {
+        .into-container {
+            bottom: 612px;
+    } 
+}
