@@ -2,6 +2,16 @@
 This is my personal portfolio website which showcases some of the applications I have built.
 It also includes some information on myself and an updated version of my cv.
 
+## Todo
+
+- Streamline css(ensure responsiveness)
+- build api backend for project hub
+- Animate elements on dom on loading of page and per break points
+- build contact form for users to be able to interact with an actual form
+- transform front end with react components -> use django as backend (api)
+- stop taking so long.
+
+
 ## deployed link
 A deployed link to the website can be found [here](https://www.seagrave.dev/)
 
