@@ -52,12 +52,15 @@ p {
 }
 
 .landing-image {
-    background: url(/static/images/stevo.png);
+    background: url(/static/images/stevo2.png);
     height: 1200px;
+    left: 15px;
+    position: relative;
     padding-top: 165px;
     width: 100%;
     height: 100vh;
     max-height: 100vh;
+    padding-left:30%;
     background-position: right bottom;
     background-origin: content-box;
     background-repeat: no-repeat;
@@ -67,11 +70,15 @@ p {
     transition: all 0.3s ease-in-out;
 }
 
-.into-container {
-    position: relative;
+.intro-container {
+    position: absolute;
     display: flex;
     flex-direction: column;
-    bottom: 1000px;
+    justify-content: center;
+    align-items: center;
+    bottom: 40vh;
+    left: 0;
+    right: 0
 }
 
 .btn-clear {
@@ -254,7 +261,7 @@ p {
 }
 
 .intro-paragraph{
-    font-size: 1.3em;
+    font-size: 0.9rem;
 }
 
 footer {
@@ -285,83 +292,94 @@ footer {
 }
 
 #name-landing {
-    font-size: 1em;
+    font-size: 2rem;
 }
 
-/* 4k Screens */
-@media only screen 
-  and (max-width: 2560px) {
-    .landing-image {
-        padding-top: 85px;
-          transition: all 0.3s ease-in-out;
-      }
 
-    .into-container {
-        bottom: 760px;
+@media only screen and (max-width: 2560px) {
+    .intro-container{
+        bottom: 50vh;
     }
-    
+
     .intro-paragraph {
-         font-size: 1.5em;
-     }
+        font-size: 1.2em;
+    }
 
     #name-landing {
-         font-size: 5em;
-     }
-}
-
-/* 23" screens */
-@media only screen and (max-width: 1920px) {
-    .landing-image {
-          padding-top: 25px;
-          transition: all 0.3s ease-in-out;
+        font-size: 3.5em;
     }
 
-    .into-container {
-        bottom: 790px;
+    .heading-sizing {
+        font-size: 2.5em;
+    }
+
+}
+
+@media only screen and (max-width: 1920px) {
+    .intro-container{
+        bottom: 40vh;
     }
 
     .intro-paragraph {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
-    #name-landing{
-        font-size: 4em;
-    }
-  }
-
-/* Laptops */
-@media only screen and (max-width: 1280px) {
-    .landing-image {
-        padding-top: 175px;
-        transition: all 0.3s ease-in-out;
+    #name-landing {
+        font-size: 3.5em;
     }
 
-    .into-container {
-        bottom: 600px;
+    .heading-sizing {
+        font-size: 2.5em;
     }
 
-    .intro-paragraph{
-        font-size: 1em;
-    }
-    
 }
 
-/* Tablets*/
-@media only screen and (max-width: 1024px) {
-    .into-container {
-        bottom: 1120px;
+@media only screen and (max-width: 1280px){
+    .intro-container{
+        bottom: 300px;
     }
+
+    .intro-paragraph {
+        font-size: 1.1em;
+    }
+
+    #name-landing {
+        font-size: 3em;
+    }
+
+    .heading-sizing {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .intro-container {
+        bottom: 830px;
+    }
+    
 
     .landing-image {
         padding-top: 467px;
         transition: all 0.3s ease-in-out;
     }
 
+    .intro-paragraph {
+        font-size: 1.1em;
+    }
+
+    #name-landing {
+        font-size: 3em;
+    }
+
+    .heading-sizing {
+        font-size: 2em;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
-    .into-container {
-        bottom: 850px;
+    .intro-container {
+        bottom: 530px;
     }
 
     .landing-image {
@@ -369,10 +387,9 @@ footer {
     }
 }
 
-/* Iphone 6/7/8/plus */
-@media only screen and (max-width: 414px) {
-    .into-container {
-        bottom: 680px;
+@media only screen and (max-width: 420px) {
+    .intro-container {
+        bottom: 40vh;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -382,39 +399,14 @@ footer {
     }
 
     .intro-paragraph {
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     #name-landing {
-        font-size: 2em;
-    }
-}
-
-/*Iphone X styling*/
-@media only screen and (max-width: 375px) {
-    .into-container {
-        bottom: 742px;
-        padding-left: 20px;
-        padding-right: 20px;
+        font-size: 1.4em;
     }
 
-    .landing-image {
-        padding-top: 400px;
+    .heading-sizing {
+        font-size: 1.4em;
     }
-
-    .intro-paragraph {
-        font-size: 1.1em;
-    }
-
-    #name-landing {
-        font-size: 2em;
-    }
-}
-
-@media only screen 
-    and (device-width :  375px) 
-    and (device-height : 667px) {
-        .into-container {
-            bottom: 612px;
-    } 
 }
