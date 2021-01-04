@@ -90,6 +90,16 @@ p {
     transition: opacity 300ms ease 0s, transform 300ms ease 0s;
 }
 
+.technologies-text {
+    font-size: 1.1em;
+}
+
+.tech-icons {
+    position: relative;
+    right: 315px;
+    top: 40px;
+}
+
 .btn-clear:hover {
     transform: scale(1.1);
 }
@@ -126,7 +136,7 @@ p {
 }
 
 .icon-size {
-    font-size: 3em;
+    font-size: 2.2em;
     padding-right: 7px;
     transition: opacity 300ms ease 0s, transform 300ms ease 0s;
 }
