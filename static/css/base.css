@@ -404,6 +404,12 @@ footer {
         padding-right: 20px;
     }
 
+    .tech-icons {
+        position: relative;
+        right: 41px;
+        top: 40px;
+    }
+
     .landing-image {
         padding-top: 400px;
     }
